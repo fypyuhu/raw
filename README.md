@@ -4,8 +4,8 @@
 
 ### Installation ###
 
-* `git clone https://github.com/bestmomo/laravel5-example.git projectname`
-* `cd projectname`
+* `git clone https://github.com/fypyuhu/raw.git raw`
+* `cd raw`
 * `composer install`
 * `php artisan key:generate`
 * Create a database and inform *.env*
