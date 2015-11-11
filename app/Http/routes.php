@@ -48,6 +48,7 @@ Route::get('admin', [
 	'middleware' => 'admin'
 ]);
 
+
 Route::get('medias', [
 	'uses' => 'AdminController@filemanager',
 	'as' => 'medias',

@@ -9,6 +9,12 @@ use App\Http\Controllers\Controller;
 
 class MaterialController extends Controller
 {
+      
+    public function __construct()
+    {
+		$this->middleware('admin', ['except' => ['show']]);
+    }
+
     /**
      * Display a listing of the resource.
      *

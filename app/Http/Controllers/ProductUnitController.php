@@ -14,6 +14,11 @@ class ProductUnitController extends Controller
      *
      * @return Response
      */
+     public function __construct()
+    {
+		$this->middleware('admin', ['except' => ['show']]);
+    }
+    
     public function index()
     {
         //
